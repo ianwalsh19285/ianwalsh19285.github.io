@@ -20,6 +20,7 @@ author: Ian Walsh
 ###############################################
 
 navbar-links:
+  My Resume: "resume"
   My Projects: "myprojects"
   About Me: "aboutme"
   # Resources:
