@@ -154,3 +154,103 @@
   text-decoration: underline;
 }
 
+/* Custom stacked project content */
+.project-shell {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0.35rem 0 2.2rem 0;
+}
+
+.project-hero {
+  max-width: 700px;
+  margin: 0 auto 0.9rem auto;
+  text-align: center;
+}
+
+.project-hero h1 {
+  font-size: 1.75rem;
+  line-height: 1.08;
+  margin: 0 0 0.08rem 0;
+  color: #404040;
+}
+
+.project-subtitle {
+  display: block;
+  font-size: 1.08rem;
+  line-height: 1.35;
+  margin: 0;
+  color: #6f7c8a;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.project-copy {
+  max-width: 700px;
+  margin: 0 auto 1.5rem auto;
+}
+
+.project-copy p,
+.project-copy li {
+  font-size: 1.03rem;
+  line-height: 1.8;
+}
+
+.project-copy h2 {
+  font-size: 1.45rem;
+  line-height: 1.25;
+  margin-top: 1.8rem;
+  margin-bottom: 0.75rem;
+  text-align: left;
+  color: #2f466b;
+}
+
+.project-copy ul {
+  padding-left: 1.25rem;
+  margin-top: 0.4rem;
+}
+
+.project-copy li + li {
+  margin-top: 0.4rem;
+}
+
+.project-copy a {
+  color: #2f5e9e;
+  text-decoration: none;
+}
+
+.project-copy a:hover,
+.project-copy a:focus {
+  text-decoration: underline;
+}
+
+.project-image,
+.project-image-secondary {
+  display: block;
+  width: 100%;
+  max-width: 560px;
+  height: auto;
+  margin: 1rem auto 1.5rem auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+  .project-shell,
+  .project-copy {
+    width: 94%;
+    max-width: 94%;
+  }
+
+  .project-hero h1 {
+    font-size: 1.45rem;
+  }
+
+  .project-subtitle {
+    font-size: 0.98rem;
+  }
+
+  .project-image,
+  .project-image-secondary {
+    max-width: 100%;
+  }
+}
+
