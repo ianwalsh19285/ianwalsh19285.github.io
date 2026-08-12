@@ -227,11 +227,6 @@ subtitle: Data Scientist
     I’m a recent M.S. in Data Science graduate with a background in economics and healthcare analytics. My work focuses on machine learning, geospatial analysis, dashboard development, and applied statistical modeling.
     </p>
 
-    <div class="home-meta">
-      <span>Martinez, California</span>
-      <span>M.S. Data Science</span>
-      <span>Healthcare + Geospatial + ML</span>
-    </div>
   </div>
 </div>
 
