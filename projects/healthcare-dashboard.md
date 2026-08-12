@@ -9,19 +9,13 @@ layout: page
   <p class="project-subtitle">Data visualization project</p>
 </div>
 
-<div class="project-overview">
-  <div class="project-overview-image">
-    <img class="project-image" src="/assets/img/projects/medications.png" alt="Healthcare dashboard medications page">
-  </div>
-
-  <div class="project-overview-copy">
-    <p>
-      This project is an interactive healthcare dashboard designed to demonstrate how clinical teams could explore patient activity, medications, deliveries, cardiac events, and mental health metrics in a single application. It uses synthetic CMS-style patient data to showcase dashboard design and filtering patterns across multiple healthcare use cases.
-    </p>
-  </div>
-</div>
+<img class="project-image" src="/assets/img/projects/medications.png" alt="Healthcare dashboard medications page">
 
 <div class="project-copy">
+  <p>
+    This project is an interactive healthcare dashboard designed to demonstrate how clinical teams could explore patient activity, medications, deliveries, cardiac events, and mental health metrics in a single application. It uses synthetic CMS-style patient data to showcase dashboard design and filtering patterns across multiple healthcare use cases.
+  </p>
+
   <h2>What I built</h2>
   <ul>
     <li>A multi-page Shiny dashboard with sections for summary metrics, urgent and emergency care, medications, deliveries, cardiac events, and mental health.</li>
