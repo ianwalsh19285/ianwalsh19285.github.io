@@ -8,6 +8,8 @@ full-width: true
 
 ![Datacenter Map](/assets/img/projects/map_dcs_2022.png)
 
+<div class="project-body">
+
 This project examined how data centers are associated with local economic outcomes across counties in the contiguous United States. The analysis used public county-level datasets and a consistent NAICS 518 definition to study employment, income, construction activity, unemployment, and air quality outcomes.
 
 ## What I built
@@ -23,9 +25,15 @@ This project examined how data centers are associated with local economic outcom
 - Identified meaningful differences between counties with low and high concentrations of data centers.
 - Demonstrated how public data can be used to study an industry that is usually difficult to analyze because of limited facility-level transparency.
 
+</div>
+
 ![Outcomes](/assets/img/projects/did_clusters_poster.png)
+
+<div class="project-body">
 
 ## Links
 
 - [**GitHub Repository**](https://github.com/wu-msds-capstones/The-Local-Economic-Impact-of-Data-Centers)
 - [**Project Report Webpage**](https://wu-msds-capstones.github.io/The-Local-Economic-Impact-of-Data-Centers/)
+
+</div>
