@@ -1,0 +1,81 @@
+.container,
+.container-md,
+.container-lg,
+.container[role="main"] {
+  max-width: 1280px !important;
+  width: 94% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.blog-post,
+.page-content,
+.post-container {
+  max-width: 1220px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.page-content p,
+.blog-post p,
+.page-content li,
+.blog-post li {
+  font-size: 1.03rem;
+  line-height: 1.8;
+}
+
+.page-content h1,
+.blog-post h1 {
+  font-size: 2.2rem;
+}
+
+.page-content h2,
+.blog-post h2 {
+  font-size: 1.65rem;
+}
+
+.page-content h3,
+.blog-post h3 {
+  font-size: 1.22rem;
+}
+
+/* Smaller project subpage headers */
+.project-page .intro-header.big-img,
+.project-page .intro-header.no-img {
+  padding: 55px 0 35px 0 !important;
+}
+
+.project-page .page-heading h1 {
+  font-size: 2rem !important;
+  line-height: 1.2 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.35rem !important;
+}
+
+.project-page .page-heading .subheading,
+.project-page .page-heading .page-subheading {
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+  margin-top: 0.2rem !important;
+}
+
+.project-page .page-heading hr.small {
+  margin: 0.75rem auto !important;
+}
+
+@media (max-width: 768px) {
+  .project-page .page-heading h1 {
+    font-size: 1.55rem !important;
+  }
+
+  .project-page .page-heading .subheading,
+  .project-page .page-heading .page-subheading {
+    font-size: 0.95rem !important;
+  }
+
+  .project-page .intro-header.big-img,
+  .project-page .intro-header.no-img {
+    padding: 40px 0 25px 0 !important;
+  }
+}
