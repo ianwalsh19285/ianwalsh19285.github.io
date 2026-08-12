@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: More About Me
 full-width: true
 ---
 
@@ -205,12 +205,6 @@ full-width: true
 </style>
 
 <div class="about-wrap">
-
-  <div class="about-intro">
-    <p>
-      I’m a recent data science graduate with a background in economics, healthcare reporting, and dashboard development. I like work that turns messy data into something clear and useful. My greatest interests are in analytics, modeling, data visualization, and practical problem solving — especially in healthcare or other areas that have meaningful real-world impacts.
-    </p>
-  </div>
 
   <div class="about-section">
     <h2>Experience and Education</h2>
