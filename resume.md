@@ -3,7 +3,6 @@ title: Resume
 subtitle: View or download my current resume
 ---
 
-[View resume]({{ site.baseurl }}/assets/docs/resume.pdf){: target="_blank" rel="noopener noreferrer" }  
 [Download resume]({{ site.baseurl }}/assets/docs/resume.pdf){: target="_blank" rel="noopener noreferrer" download }
 
 <object data="{{ site.baseurl }}/assets/docs/resume.pdf"
