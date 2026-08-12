@@ -8,8 +8,6 @@ full-width: true
 
 ![Transit Dashboard Screenshot](/assets/img/projects/vulnerability_vs_businesses.png)
 
-<div class="project-body">
-
 This project explored whether public transit presence in the Portland area is correlated with business activity and socioeconomic health indicators. It integrated GTFS transit data, business license records, and census geography to analyze how transportation infrastructure relates to neighborhood-level conditions.
 
 ## What I built
@@ -24,5 +22,3 @@ This project explored whether public transit presence in the Portland area is co
 - Found a positive correlation between public transit and business density.
 - Found that transit stop presence was not clearly correlated with the socioeconomic indicators used in the analysis.
 - Identified a negative relationship between business density and economic vulnerability.
-
-</div>

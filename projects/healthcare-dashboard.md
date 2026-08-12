@@ -3,12 +3,9 @@ layout: page
 title: Healthcare Analytics Dashboard
 subtitle: Data Visualization Project
 css-class: project-page
-full-width: true
 ---
 
 ![Medications Page](/assets/img/projects/medications.png)
-
-<div class="project-body">
 
 This project is an interactive healthcare dashboard designed to demonstrate how clinical teams could explore patient activity, medications, deliveries, cardiac events, and mental health metrics in a single application. It uses synthetic CMS-style patient data to showcase dashboard design and filtering patterns across multiple healthcare use cases.
 
@@ -24,5 +21,3 @@ This project is an interactive healthcare dashboard designed to demonstrate how 
 - Built a dashboard that demonstrates capabilities across several healthcare analytics workflows.
 - Combined static and interactive visualizations to support both quick monitoring and deeper exploration.
 - Designed the app to communicate technical flexibility to non-technical stakeholders interested in custom dashboard services.
-
-</div>

@@ -68,26 +68,46 @@
   gap: 1.4rem;
 }
 
+/* Project pages: narrower readable layout */
+.page.project-page .page-content,
+.page.project-page .post-container,
+.project-page .page-content,
+.project-page .post-container,
+.project-page .container[role="main"] {
+  max-width: 760px !important;
+  width: 92% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 /* Project page header */
+.page.project-page .intro-header,
 .project-page .intro-header,
 .project-page .header-section,
 .project-page .intro-header.big-img,
 .project-page .intro-header.no-img {
-  padding: 2rem 0 1.2rem 0 !important;
+  padding: 1.6rem 0 1rem 0 !important;
 }
 
+.page.project-page .page-heading,
+.page.project-page .post-heading,
 .project-page .page-heading,
 .project-page .post-heading {
   text-align: center !important;
 }
 
+/* Stronger title override */
+header .project-page .page-heading h1,
+header .project-page .post-heading h1,
+.project-page .intro-header .page-heading h1,
+.project-page .intro-header .post-heading h1,
 .project-page .page-heading h1,
 .project-page .post-heading h1 {
-  font-size: 2rem !important;
+  font-size: 1.55rem !important;
   line-height: 1.1 !important;
   margin-top: 0 !important;
-  margin-bottom: 0.3rem !important;
-  max-width: 760px !important;
+  margin-bottom: 0.25rem !important;
+  max-width: 680px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -95,42 +115,40 @@
 .project-page .page-heading .subheading,
 .project-page .page-heading .page-subheading,
 .project-page .post-heading .subheading {
-  font-size: 0.98rem !important;
+  font-size: 0.95rem !important;
   line-height: 1.35 !important;
-  margin-top: 0.1rem !important;
+  margin-top: 0.05rem !important;
 }
 
 .project-page .page-heading hr.small,
 .project-page .post-heading hr.small {
-  margin: 0.6rem auto 0 auto !important;
+  margin: 0.5rem auto 0 auto !important;
 }
 
-/* Project page readable text wrapper */
-.project-body {
-  max-width: 760px;
-  margin: 0 auto;
+/* Project page text */
+.project-page p,
+.project-page li {
+  font-size: 1.03rem !important;
+  line-height: 1.8 !important;
 }
 
-.project-body p,
-.project-body li {
-  font-size: 1.03rem;
-  line-height: 1.8;
-}
-
-.project-body h2 {
-  font-size: 1.55rem;
-  line-height: 1.25;
-  margin-top: 2rem;
-  margin-bottom: 0.85rem;
-  text-align: left;
+.project-page h2 {
+  font-size: 1.45rem !important;
+  line-height: 1.25 !important;
+  margin-top: 1.8rem !important;
+  margin-bottom: 0.75rem !important;
+  text-align: left !important;
 }
 
 /* Project images */
 .project-page img {
-  display: block;
-  width: 100%;
-  max-width: 780px;
-  margin: 1.25rem auto 1.75rem auto;
+  display: block !important;
+  width: auto !important;
+  max-width: 720px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 1.25rem !important;
+  margin-bottom: 1.75rem !important;
   border-radius: 12px;
 }
 
@@ -153,29 +171,24 @@
 
 /* Mobile */
 @media (max-width: 768px) {
-  .project-page .intro-header,
-  .project-page .header-section,
-  .project-page .intro-header.big-img,
-  .project-page .intro-header.no-img {
-    padding: 1.75rem 0 1rem 0 !important;
+  .page.project-page .page-content,
+  .page.project-page .post-container,
+  .project-page .page-content,
+  .project-page .post-container,
+  .project-page .container[role="main"] {
+    width: 94% !important;
   }
 
+  header .project-page .page-heading h1,
+  header .project-page .post-heading h1,
+  .project-page .intro-header .page-heading h1,
+  .project-page .intro-header .post-heading h1,
   .project-page .page-heading h1,
   .project-page .post-heading h1 {
-    font-size: 1.7rem !important;
-  }
-
-  .project-page .page-heading .subheading,
-  .project-page .page-heading .page-subheading,
-  .project-page .post-heading .subheading {
-    font-size: 0.95rem !important;
-  }
-
-  .project-body {
-    width: 94%;
+    font-size: 1.3rem !important;
   }
 
   .project-page img {
-    width: 94%;
+    max-width: 100% !important;
   }
 }
