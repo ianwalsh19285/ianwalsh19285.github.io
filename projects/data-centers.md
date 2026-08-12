@@ -3,6 +3,7 @@ layout: page
 title: The Local Economic Impact of Data Centers
 subtitle: Graduate capstone project
 css-class: project-page
+full-width: true
 ---
 
 ![Datacenter Map](/assets/img/projects/map_dcs_2022.png)

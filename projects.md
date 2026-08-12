@@ -1,19 +1,21 @@
 ---
 layout: page
 title: Projects
-subtitle: Selected work
+subtitle:
+full-width: true
 ---
 
 <style>
 .projects-wrap {
-  max-width: 1050px;
+  max-width: 1180px;
+  width: 94%;
   margin: 0 auto;
 }
 
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.4rem;
+  gap: 1.5rem;
   margin-top: 1.5rem;
 }
 
@@ -36,7 +38,7 @@ subtitle: Selected work
 
 .project-card img {
   width: 100%;
-  height: 260px;
+  height: 300px;
   object-fit: cover;
   display: block;
 }
@@ -65,7 +67,7 @@ subtitle: Selected work
 
     <a class="project-card" href="/projects/data-centers/">
       <img src="/assets/img/projects/map_dcs_2022.png" alt="Map showing data center distribution across the contiguous United States">
-      <div class="project-card-title">M.S Capstone: The Local Economic Impact of Data Centers</div>
+      <div class="project-card-title">M.S. Capstone — The Local Economic Impact of Data Centers</div>
     </a>
 
     <a class="project-card" href="/projects/healthcare-dashboard/">

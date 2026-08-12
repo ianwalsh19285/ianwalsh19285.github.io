@@ -1,18 +1,19 @@
 ---
 layout: page
 title: About Me
-subtitle: Background, experience, and the kind of work I want to do
+full-width: true
 ---
 
 <style>
 .about-wrap {
-  max-width: 980px;
+  max-width: 1180px;
+  width: 94%;
   margin: 0 auto;
 }
 
 .about-intro {
-  max-width: 780px;
-  margin: 1.5rem auto 2.5rem auto;
+  max-width: 900px;
+  margin: 1.5rem auto 2.75rem auto;
   text-align: center;
 }
 
@@ -34,7 +35,7 @@ subtitle: Background, experience, and the kind of work I want to do
 .pro-card-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.25rem;
+  gap: 1.5rem;
   align-items: stretch;
 }
 
@@ -89,7 +90,8 @@ subtitle: Background, experience, and the kind of work I want to do
 }
 
 .interests-wrap {
-  max-width: 820px;
+  max-width: 1000px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -104,7 +106,7 @@ subtitle: Background, experience, and the kind of work I want to do
 .interests-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 0.9rem;
+  gap: 1rem;
 }
 
 .interest-pill {
@@ -132,8 +134,8 @@ subtitle: Background, experience, and the kind of work I want to do
 
 .personal-layout {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 1.5rem;
+  grid-template-columns: 340px 1fr;
+  gap: 2rem;
   align-items: center;
   margin-top: 1.25rem;
 }

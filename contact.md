@@ -2,11 +2,13 @@
 layout: page
 title: Contact
 subtitle: Get in touch
+full-width: true
 ---
 
 <style>
 .contact-wrap {
-  max-width: 760px;
+  max-width: 900px;
+  width: 94%;
   margin: 0 auto;
 }
 

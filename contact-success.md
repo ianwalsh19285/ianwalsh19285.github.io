@@ -2,11 +2,13 @@
 layout: page
 title: Message Sent
 subtitle: Thank you
+full-width: true
 ---
 
 <style>
 .contact-success-wrap {
-  max-width: 720px;
+  max-width: 900px;
+  width: 94%;
   margin: 0 auto;
 }
 
