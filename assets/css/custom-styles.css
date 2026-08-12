@@ -1,114 +1,70 @@
-/* Wider overall site containers for normal pages */
-.container,
-.container-md,
-.container-lg,
-.container[role="main"] {
-  max-width: 1280px !important;
-  width: 94% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* Generic page/post body sizing */
-.blog-post,
-.page-content,
-.post-container {
-  max-width: 1220px !important;
-  width: 100% !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* Base typography */
-.page-content p,
-.blog-post p,
-.page-content li,
-.blog-post li {
-  font-size: 1.03rem;
-  line-height: 1.8;
-}
-
-.page-content h1,
-.blog-post h1 {
-  font-size: 2.2rem;
-}
-
-.page-content h2,
-.blog-post h2 {
-  font-size: 1.65rem;
-}
-
-.page-content h3,
-.blog-post h3 {
-  font-size: 1.22rem;
-}
-
-/* Shared custom wrappers */
-.about-wrap,
-.projects-wrap,
-.contact-wrap,
-.resume-wrap {
-  max-width: 1180px !important;
-  width: 94%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Shared spacing */
-.about-section,
-.projects-grid,
-.contact-card {
-  margin-top: 1.5rem;
-}
-
-.pro-card-grid,
-.projects-grid,
-.personal-grid,
-.interests-grid {
-  gap: 1.4rem;
-}
-
 /* Hide Beautiful Jekyll default page title block */
 .intro-header .page-heading,
 .intro-header .post-heading {
   display: none !important;
 }
 
-/* Tighten header space left behind by hidden title */
+/* Remove leftover header space */
 .intro-header,
 .intro-header.big-img,
 .intro-header.no-img,
 .header-section {
-  padding: 0.75rem 0 0.25rem 0 !important;
-  margin-bottom: 0 !important;
+  padding: 0.35rem 0 0.1rem !important;
+  margin: 0 !important;
   min-height: 0 !important;
 }
 
 /* Custom project page shell */
 .project-shell {
-  max-width: 920px;
+  max-width: 860px;
   margin: 0 auto;
-  padding: 0.75rem 1rem 2rem 1rem;
+  padding: 0.4rem 1.5rem 2.2rem 1.5rem;
 }
 
 .project-hero {
-  max-width: 640px;
-  margin: 0 auto 1.5rem auto;
+  max-width: 760px;
+  margin: 0 auto 0.7rem auto;
   text-align: center;
 }
 
 .project-hero h1 {
-  font-size: 1.85rem !important;
+  font-size: 1.55rem !important;
   line-height: 1.08 !important;
-  margin: 0 0 0.35rem 0 !important;
+  margin: 0 0 0.08rem 0 !important;
   color: #404040;
 }
 
 .project-subtitle {
-  font-size: 0.98rem;
-  line-height: 1.35;
-  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  margin: 0 !important;
   color: #6b6b6b;
+}
+
+/* Side-by-side overview */
+.project-overview {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 760px;
+  margin: 0 auto 1.4rem auto;
+}
+
+.project-overview-image {
+  flex: 0 1 280px;
+}
+
+.project-overview-copy {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.project-overview-copy p {
+  font-size: 1.03rem;
+  line-height: 1.8;
+  margin: 0;
 }
 
 .project-copy {
@@ -123,19 +79,20 @@
 }
 
 .project-copy h2 {
-  font-size: 1.4rem;
+  font-size: 1.35rem;
   line-height: 1.25;
-  margin-top: 1.8rem;
-  margin-bottom: 0.75rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.7rem;
   color: #2f466b;
 }
 
 .project-copy ul {
   padding-left: 1.25rem;
+  margin-top: 0.4rem;
 }
 
 .project-copy li + li {
-  margin-top: 0.45rem;
+  margin-top: 0.4rem;
 }
 
 .project-copy a {
@@ -148,53 +105,59 @@
   text-decoration: underline;
 }
 
-/* Custom project images */
+/* Images */
 .project-image {
   display: block !important;
-  width: 100%;
-  max-width: 540px !important;
+  width: 100% !important;
   height: auto !important;
-  margin: 1rem auto 1.5rem auto !important;
   border-radius: 10px;
 }
 
-/* Desktop refinements */
-@media (min-width: 1100px) {
-  .about-intro,
-  .projects-intro {
-    max-width: 900px !important;
-  }
+.project-overview-image .project-image {
+  max-width: 280px !important;
+  margin: 0 auto !important;
+}
 
-  .personal-layout {
-    grid-template-columns: 340px 1fr !important;
-    gap: 2rem !important;
-  }
-
-  .project-card img {
-    height: 300px;
-  }
+.project-image-secondary {
+  max-width: 480px !important;
+  margin: 1rem auto 1.3rem auto !important;
 }
 
 /* Mobile */
 @media (max-width: 768px) {
   .project-shell {
     width: 94%;
-    padding: 0.5rem 0 1.75rem 0;
+    padding: 0.2rem 0 1.8rem 0;
+  }
+
+  .project-hero {
+    margin-bottom: 0.5rem;
   }
 
   .project-hero h1 {
-    font-size: 1.45rem !important;
+    font-size: 1.28rem !important;
   }
 
   .project-subtitle {
-    font-size: 0.92rem;
+    font-size: 0.84rem;
+  }
+
+  .project-overview {
+    gap: 0.9rem;
+    margin-bottom: 1.15rem;
+  }
+
+  .project-overview-image,
+  .project-overview-copy {
+    flex: 1 1 100%;
+  }
+
+  .project-overview-image .project-image,
+  .project-image-secondary {
+    max-width: 100% !important;
   }
 
   .project-copy {
     max-width: 100%;
-  }
-
-  .project-image {
-    max-width: 100% !important;
   }
 }
