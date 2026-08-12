@@ -142,7 +142,7 @@ subtitle: Background, experience, and the kind of work I want to do
     </div>
 
     <div class="about-side">
-      <img src="/assets/img/percy.png" alt="My cat Percy">
+      <img src="/assets/img/percy.jpg" alt="My cat Percy">
       <div class="about-photo-caption">
         Meet Percy!
       </div>
@@ -174,12 +174,6 @@ subtitle: Background, experience, and the kind of work I want to do
       My capstone project focused on the local economic impact of data centers in the contiguous United States. For that work, I built a county-level analytical pipeline using public datasets, PostgreSQL, Python, spatial analysis tools, and multiple modeling approaches to study employment, income, construction activity, unemployment, and air quality outcomes.
     </p>
 
-    <div class="about-highlight">
-      <h3>What I took from graduate school</h3>
-      <p>
-        Graduate school strengthened my interest in analytical work that sits between technical depth and real-world interpretation: building reproducible workflows, choosing methods carefully, and communicating findings in a way that helps people act on them.
-      </p>
-    </div>
   </div>
 
   <div class="about-section">
