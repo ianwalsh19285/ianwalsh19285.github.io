@@ -222,30 +222,6 @@ full-width: true
     </div>
   </div>
 
-  <div class="quick-links">
-    <h2>Explore</h2>
-    <div class="quick-links-grid">
-      <div class="quick-link-box">
-        <h3>About</h3>
-        <a href="/about/">Read more</a>
-      </div>
-
-      <div class="quick-link-box">
-        <h3>Resume</h3>
-        <a href="/resume/">View resume</a>
-      </div>
-
-      <div class="quick-link-box">
-        <h3>Projects</h3>
-        <a href="/projects/">Open portfolio</a>
-      </div>
-
-      <div class="quick-link-box">
-        <h3>Contact</h3>
-        <a href="/contact/">Contact me</a>
-      </div>
-    </div>
-  </div>
 </div>
 
 <script src="https://unpkg.com/lucide@latest"></script>
