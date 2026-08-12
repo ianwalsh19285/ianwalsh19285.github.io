@@ -14,73 +14,73 @@ full-width: true
 
 .home-hero {
   display: grid;
-  grid-template-columns: 380px 1fr;
-  gap: 3.2rem;
+  grid-template-columns: 390px 1fr;
+  gap: 3.75rem;
   align-items: center;
-  margin: 1.5rem 0 3rem 0;
+  margin: 1.25rem 0 3.4rem 0;
 }
 
 .home-portrait img {
   width: 100%;
-  max-width: 380px;
+  max-width: 390px;
   border-radius: 28px;
   display: block;
   object-fit: cover;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.10);
 }
 
 .home-intro {
-  max-width: 700px;
+  max-width: 720px;
 }
 
 .home-intro h1 {
-  font-size: 3.15rem;
+  font-size: 3.2rem;
+  line-height: 1.06;
   margin-bottom: 0.45rem;
 }
 
 .home-intro .lead {
-  font-size: 1.2rem;
+  font-size: 1.16rem;
   color: #666;
   margin-bottom: 1rem;
 }
 
 .home-intro p {
   font-size: 1.08rem;
-  line-height: 1.8;
+  line-height: 1.85;
   margin-bottom: 0;
 }
 
 .section-divider {
-  margin: 3rem 0 2.5rem 0;
+  margin: 3rem 0 2.8rem 0;
   border: none;
   border-top: 1px solid #ddd;
 }
 
+.expertise-section,
+.quick-links {
+  text-align: center;
+}
+
 .expertise-section h2,
 .quick-links h2 {
-  text-align: center;
   margin-bottom: 0.55rem;
 }
 
 .expertise-section .section-note {
-  text-align: center;
   color: #666;
   margin-bottom: 2rem;
+  font-size: 1rem;
 }
 
-.expertise-grid,
-.quick-links-grid {
+.expertise-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.4rem;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }
 
-.expertise-card,
-.quick-link-box {
-  background: #fafafa;
-  border: 1px solid #e6e6e6;
-  border-radius: 18px;
-  padding: 1.3rem;
+.expertise-card {
   text-align: center;
 }
 
@@ -88,28 +88,46 @@ full-width: true
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.9rem;
+  margin-bottom: 0.8rem;
 }
 
 .expertise-card .icon svg {
-  width: 38px;
-  height: 38px;
+  width: 34px;
+  height: 34px;
   stroke: #6b4b3e;
   stroke-width: 1.8;
 }
 
-.expertise-card h3,
-.quick-link-box h3 {
+.expertise-card h3 {
   margin-top: 0;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.45rem;
+  font-size: 1.02rem;
 }
 
-.expertise-card p,
-.quick-link-box p {
+.expertise-card p {
+  margin: 0 auto;
+  max-width: 20ch;
   font-size: 0.96rem;
-  line-height: 1.65;
+  line-height: 1.7;
   color: #555;
-  margin-bottom: 0;
+}
+
+.quick-links-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.quick-link-box {
+  text-align: center;
+  padding: 0.25rem 0;
+}
+
+.quick-link-box h3 {
+  margin: 0 0 0.35rem 0;
+  font-size: 1rem;
 }
 
 .quick-link-box a {
@@ -117,11 +135,15 @@ full-width: true
   font-weight: 600;
 }
 
+.quick-link-box a:hover {
+  text-decoration: underline !important;
+}
+
 @media (max-width: 950px) {
   .home-hero {
     grid-template-columns: 1fr;
     text-align: center;
-    gap: 1.75rem;
+    gap: 1.8rem;
   }
 
   .home-portrait {
@@ -147,7 +169,7 @@ full-width: true
   }
 
   .home-intro h1 {
-    font-size: 2.4rem;
+    font-size: 2.35rem;
   }
 }
 </style>
@@ -155,7 +177,7 @@ full-width: true
 <div class="home-wrap">
   <div class="home-hero">
     <div class="home-portrait">
-      <img src="/assets/img/2023headshot.png" alt="Portrait of Ian Walsh">
+      <img src="/assets/img/2023_headshot.png" alt="Portrait of Ian Walsh">
     </div>
 
     <div class="home-intro">
@@ -205,25 +227,21 @@ full-width: true
     <div class="quick-links-grid">
       <div class="quick-link-box">
         <h3>About</h3>
-        <p>Background, experience, and interests.</p>
         <a href="/about/">Read more</a>
       </div>
 
       <div class="quick-link-box">
         <h3>Resume</h3>
-        <p>Education, experience, and technical skills.</p>
         <a href="/resume/">View resume</a>
       </div>
 
       <div class="quick-link-box">
         <h3>Projects</h3>
-        <p>Selected work in analytics, dashboards, and applied data science.</p>
         <a href="/projects/">Open portfolio</a>
       </div>
 
       <div class="quick-link-box">
         <h3>Contact</h3>
-        <p>Reach out for opportunities, collaborations, or questions.</p>
         <a href="/contact/">Contact me</a>
       </div>
     </div>
