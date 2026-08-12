@@ -40,6 +40,23 @@ subtitle: Data Scientist
   margin-bottom: 1rem;
 }
 
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.2rem;
+}
+
+.hero-meta span {
+  display: inline-block;
+  padding: 0.45rem 0.8rem;
+  background: #f5f5f5;
+  border: 1px solid #e2e2e2;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  color: #555;
+}
+
 .home-actions {
   display: flex;
   flex-wrap: wrap;
@@ -185,6 +202,9 @@ subtitle: Data Scientist
   .quick-links-grid {
     grid-template-columns: 1fr;
   }
+  .hero-meta {
+  justify-content: center;
+  }
 
   .home-intro h1 {
     font-size: 2.3rem;
@@ -201,11 +221,14 @@ subtitle: Data Scientist
     <h1>Ian Walsh</h1>
     <div class="lead">Data Scientist</div>
 
-    <div class="home-actions">
-      <a href="/myprojects/">View Portfolio</a>
-      <a href="/about/">About Me</a>
-      <a href="/resume/">Resume</a>
-      <a href="/contact/">Contact</a>
+    <p>
+    I’m a recent M.S. in Data Science graduate with a background in economics and healthcare analytics. My work focuses on machine learning, geospatial analysis, dashboard development, and applied statistical modeling.
+    </p>
+
+    <div class="home-meta">
+      <span>Martinez, California</span>
+      <span>M.S. Data Science</span>
+      <span>Healthcare + Geospatial + ML</span>
     </div>
   </div>
 </div>
