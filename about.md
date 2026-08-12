@@ -244,31 +244,6 @@ subtitle: Background, experience, and the kind of work I want to do
     </div>
   </div>
 
-    <div class="about-section">
-        <h2>My interests</h2>
-            <div class="interests-grid">
-                <div class="interest-pill">
-                    <i data-lucide="heart-pulse"></i>
-                    <span>Healthcare analytics</span>
-                </div>
-
-                <div class="interest-pill">
-                    <i data-lucide="chart-column-increasing"></i>
-                    <span>Data visualization</span>
-                </div>
-
-                <div class="interest-pill">
-                    <i data-lucide="brain-circuit"></i>
-                    <span>Applied modeling</span>
-                </div>
-
-                <div class="interest-pill">
-                    <i data-lucide="map"></i>
-                    <span>Geospatial analysis</span>
-                </div>
-            </div>
-    </div>
-
   <div class="about-section">
     <h2>Outside of work</h2>
 
@@ -313,8 +288,3 @@ subtitle: Background, experience, and the kind of work I want to do
   </div>
 
 </div>
-
-<script src="https://unpkg.com/lucide@latest"></script>
-<script>
-  lucide.createIcons();
-</script>
