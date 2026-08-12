@@ -6,22 +6,16 @@ layout: page
 
 <div class="project-hero">
   <h1>Portland Transit, Business Density, and Neighborhood Health</h1>
-  <p class="project-subtitle">Spatial data engineering project</p>
+  <p class="project-subtitle">Data engineering project</p>
 </div>
 
-<div class="project-overview">
-  <div class="project-overview-image">
-    <img class="project-image" src="/assets/img/projects/vulnerability_vs_businesses.png" alt="Transit dashboard screenshot">
-  </div>
-
-  <div class="project-overview-copy">
-    <p>
-      This project explored whether public transit presence in the Portland area is correlated with business activity and socioeconomic health indicators. It integrated GTFS transit data, business license records, and census geography to analyze how transportation infrastructure relates to neighborhood-level conditions.
-    </p>
-  </div>
-</div>
+<img class="project-image" src="/assets/img/projects/vulnerability_vs_businesses.png" alt="Transit dashboard screenshot">
 
 <div class="project-copy">
+  <p>
+    This project explored whether public transit presence in the Portland area is correlated with business activity and socioeconomic health indicators. It integrated GTFS transit data, business license records, and census geography to analyze how transportation infrastructure relates to neighborhood-level conditions.
+  </p>
+
   <h2>What I built</h2>
   <ul>
     <li>A structured schema with tables for routes, trips, stop times, transit stops, businesses, and vulnerability scores.</li>
