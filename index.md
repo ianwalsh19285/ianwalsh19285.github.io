@@ -191,6 +191,10 @@ subtitle: Data Scientist
     justify-content: center;
   }
 
+  .hero-meta {
+  justify-content: center;
+  }
+
   .expertise-grid,
   .quick-links-grid {
     grid-template-columns: 1fr 1fr;
@@ -202,9 +206,7 @@ subtitle: Data Scientist
   .quick-links-grid {
     grid-template-columns: 1fr;
   }
-  .hero-meta {
-  justify-content: center;
-  }
+
 
   .home-intro h1 {
     font-size: 2.3rem;
