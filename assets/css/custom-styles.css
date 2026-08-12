@@ -1,0 +1,38 @@
+.project-page .intro-header.big-img,
+.project-page .intro-header.no-img {
+  padding: 55px 0 35px 0 !important;
+}
+
+.project-page .page-heading h1 {
+  font-size: 2rem !important;
+  line-height: 1.2 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.35rem !important;
+}
+
+.project-page .page-heading .subheading,
+.project-page .page-heading .page-subheading {
+  font-size: 1rem !important;
+  line-height: 1.4 !important;
+  margin-top: 0.2rem !important;
+}
+
+.project-page .page-heading hr.small {
+  margin: 0.75rem auto !important;
+}
+
+@media (max-width: 768px) {
+  .project-page .page-heading h1 {
+    font-size: 1.55rem !important;
+  }
+
+  .project-page .page-heading .subheading,
+  .project-page .page-heading .page-subheading {
+    font-size: 0.95rem !important;
+  }
+
+  .project-page .intro-header.big-img,
+  .project-page .intro-header.no-img {
+    padding: 40px 0 25px 0 !important;
+  }
+}

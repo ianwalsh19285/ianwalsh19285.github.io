@@ -2,6 +2,7 @@
 layout: page
 title: Portland Transit, Business Density, and Neighborhood Health
 subtitle: Spatial data engineering project
+css-class: project-page
 ---
 
 ![Transit Dashboard Screenshot](/assets/img/projects/vulnerability_vs_businesses.png)

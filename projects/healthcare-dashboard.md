@@ -2,6 +2,7 @@
 layout: page
 title: Healthcare Analytics Dashboard
 subtitle: Data Visualization Project
+css-class: project-page
 ---
 
 ![Medications Page](/assets/img/projects/medications.png)
