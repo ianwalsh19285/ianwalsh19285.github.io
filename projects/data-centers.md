@@ -9,13 +9,19 @@ layout: page
   <p class="project-subtitle">Graduate capstone project</p>
 </div>
 
-<img class="project-image" src="/assets/img/projects/map_dcs_2022.png" alt="Datacenter map">
+<div class="project-overview">
+  <div class="project-overview-image">
+    <img class="project-image" src="/assets/img/projects/map_dcs_2022.png" alt="Datacenter map">
+  </div>
+
+  <div class="project-overview-copy">
+    <p>
+      This project examined how data centers are associated with local economic outcomes across counties in the contiguous United States. The analysis used public county-level datasets and a consistent NAICS 518 definition to study employment, income, construction activity, unemployment, and air quality outcomes.
+    </p>
+  </div>
+</div>
 
 <div class="project-copy">
-  <p>
-    This project examined how data centers are associated with local economic outcomes across counties in the contiguous United States. The analysis used public county-level datasets and a consistent NAICS 518 definition to study employment, income, construction activity, unemployment, and air quality outcomes.
-  </p>
-
   <h2>What I built</h2>
   <ul>
     <li>A normalized PostgreSQL database integrating county-level data from multiple public sources.</li>
@@ -32,7 +38,7 @@ layout: page
   </ul>
 </div>
 
-<img class="project-image" src="/assets/img/projects/did_clusters_poster.png" alt="Outcomes chart">
+<img class="project-image project-image-secondary" src="/assets/img/projects/did_clusters_poster.png" alt="Outcomes chart">
 
 <div class="project-copy">
   <h2>Links</h2>
