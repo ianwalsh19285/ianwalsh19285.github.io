@@ -20,8 +20,9 @@ author: Ian Walsh
 ###############################################
 
 navbar-links:
+  About Me: "about"
   My Resume: "resume"
-  My Projects: "myprojects"
+  My Projects: "projects"
   # Resources:
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
   # Author's home: "https://deanattali.com"
