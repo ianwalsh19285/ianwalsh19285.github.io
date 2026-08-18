@@ -1,6 +1,6 @@
 ---
 layout: page
-title: More About Me
+title: About Me
 full-width: true
 ---
 

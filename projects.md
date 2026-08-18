@@ -14,7 +14,7 @@ full-width: true
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -38,7 +38,7 @@ full-width: true
 
 .project-card img {
   width: 100%;
-  height: 300px;
+  height: 220px;
   object-fit: cover;
   display: block;
 }
@@ -51,10 +51,22 @@ full-width: true
   text-align: center;
 }
 
+@media (max-width: 1000px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .project-card img {
+    height: 240px;
+  }
+}
+
+
 @media (max-width: 800px) {
   .projects-grid {
     grid-template-columns: 1fr;
   }
+
 
   .project-card img {
     height: 230px;

@@ -8,7 +8,7 @@ layout: page
 
 <div class="project-hero">
   <h1>PFAS Concentration and Cancer Rates</h1>
-  <p class="project-subtitle">R data science project</p>
+  <p class="project-subtitle">Data science with R project</p>
 </div>
 
 
@@ -35,7 +35,7 @@ layout: page
     <li>The fitted model explained about 60% of the variation in cancer prevalence, but the regression assumptions were not adequately met.</li>
     <li>PFOA and PFOS were statistically significant in the model, but their coefficients pointed in opposite directions, while PFNA was not significant.</li>
     <li>Because of assumption violations and conflicting coefficient behavior, the project did not support rejecting the null hypothesis of no significant association between these PFAS concentrations and cancer prevalence.</li>
-    <li>The analysis highlighted important limitations in environmental health data, especially minimum reporting level constraints, cross-sectional timing issues, and the difficulty of measuring total exposure from water alone. [file:7]</li>
+    <li>The analysis highlighted important limitations in environmental health data, especially minimum reporting level constraints, cross-sectional timing issues, and the difficulty of measuring total exposure from water alone.</li>
   </ul>
 </div>
 
