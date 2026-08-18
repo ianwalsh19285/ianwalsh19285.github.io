@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Ian Walsh
-subtitle: Data Science Graduate
 full-width: true
 ---
 
@@ -58,16 +57,17 @@ full-width: true
 }
 
 .expertise-section,
-.quick-links {
+.featured-projects {
   text-align: center;
 }
 
 .expertise-section h2,
-.quick-links h2 {
+.featured-projects h2 {
   margin-bottom: 0.55rem;
 }
 
-.expertise-section .section-note {
+.expertise-section .section-note,
+.featured-projects .section-note {
   color: #666;
   margin-bottom: 2rem;
   font-size: 1rem;
@@ -112,31 +112,47 @@ full-width: true
   color: #555;
 }
 
-.quick-links-grid {
+.featured-projects {
+  margin-bottom: 3.5rem;
+}
+
+.featured-projects-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.2rem;
-  max-width: 900px;
-  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 
-.quick-link-box {
-  text-align: center;
-  padding: 0.25rem 0;
-}
-
-.quick-link-box h3 {
-  margin: 0 0 0.35rem 0;
-  font-size: 1rem;
-}
-
-.quick-link-box a {
+.featured-project-card {
+  display: flex;
+  flex-direction: column;
   text-decoration: none !important;
-  font-weight: 600;
+  color: inherit !important;
+  background: #fafafa;
+  border: 1px solid #e7e7e7;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.quick-link-box a:hover {
-  text-decoration: underline !important;
+.featured-project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.07);
+}
+
+.featured-project-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.featured-project-card-title {
+  padding: 1.05rem 1.15rem 1.2rem 1.15rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.55;
+  text-align: left;
 }
 
 @media (max-width: 950px) {
@@ -156,15 +172,21 @@ full-width: true
     margin: 0 auto;
   }
 
-  .expertise-grid,
-  .quick-links-grid {
+  .expertise-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .featured-projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-project-card-title {
+    text-align: center;
   }
 }
 
 @media (max-width: 640px) {
-  .expertise-grid,
-  .quick-links-grid {
+  .expertise-grid {
     grid-template-columns: 1fr;
   }
 
@@ -182,9 +204,9 @@ full-width: true
 
     <div class="home-intro">
       <h1>Ian Walsh</h1>
-      <div class="lead">Data Science Graduate</div>
+      <div class="lead">Data Scientist</div>
       <p>
-        I’m a recent data science graduate with a background in economics, healthcare reporting, and dashboard development. I like work that turns messy data into something clear and useful. My greatest interests are in analytics, modeling, data visualization, and practical problem solving — especially in healthcare or in areas that have meaningful real-world impacts.
+        I’m a recent data science graduate with a strong background in economics, healthcare reporting, and dashboard development. I like to build analytical tools and models that make complex data easier to understand and use. My strongest interests are in healthcare and any other work with meaningful real-world impact.
       </p>
     </div>
   </div>
@@ -222,6 +244,29 @@ full-width: true
     </div>
   </div>
 
+  <hr class="section-divider">
+
+  <div class="featured-projects">
+    <h2>Featured Projects</h2>
+    <p class="section-note">A few projects that best reflect my interests in applied analytics, dashboards, and policy-oriented data work.</p>
+
+    <div class="featured-projects-grid">
+      <a class="featured-project-card" href="/projects/data-centers/">
+        <img src="/assets/img/projects/map_dcs_2022.png" alt="Map showing data center distribution across the contiguous United States">
+        <div class="featured-project-card-title">M.S. Capstone — The Local Economic Impact of Data Centers</div>
+      </a>
+
+      <a class="featured-project-card" href="/projects/healthcare-dashboard/">
+        <img src="/assets/img/projects/medications.png" alt="Screenshot of healthcare analytics dashboard">
+        <div class="featured-project-card-title">Healthcare Analytics Dashboard</div>
+      </a>
+
+      <a class="featured-project-card" href="/projects/portland-transit/">
+        <img src="/assets/img/projects/vulnerability_vs_businesses.png" alt="Visualization of Portland transit and business density analysis">
+        <div class="featured-project-card-title">Portland Transit, Business Density, and Neighborhood Health</div>
+      </a>
+    </div>
+  </div>
 </div>
 
 <script src="https://unpkg.com/lucide@latest"></script>
