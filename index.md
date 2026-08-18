@@ -259,8 +259,8 @@ full-width: true
 
       <div class="hero-actions">
         <a class="hero-button" href="/about/">More About Me</a>
-        <a class="hero-button" href="/projects/">Project Portfolio</a>
         <a class="hero-button" href="/resume/">My Resume</a>
+        <a class="hero-button" href="/projects/">Project Portfolio</a>
         <a class="hero-button" href="/contact/">Contact Me</a>
       </div>
     </div>
