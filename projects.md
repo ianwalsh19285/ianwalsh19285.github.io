@@ -70,6 +70,11 @@ full-width: true
       <div class="project-card-title">M.S. Capstone — The Local Economic Impact of Data Centers</div>
     </a>
 
+    <a class="project-card" href="/projects/prague-metro/">
+      <img src="/assets/img/projects/milestone_5.png" alt="Screenshot of a dashboard analyzing Prague metro wait times">
+      <div class="project-card-title">Prague Metro Analytics Pipeline</div>
+    </a>
+
     <a class="project-card" href="/projects/healthcare-dashboard/">
       <img src="/assets/img/projects/medications.png" alt="Screenshot of healthcare analytics dashboard">
       <div class="project-card-title">Healthcare Analytics Dashboard</div>
@@ -78,6 +83,21 @@ full-width: true
     <a class="project-card" href="/projects/portland-transit/">
       <img src="/assets/img/projects/vulnerability_vs_businesses.png" alt="Visualization of Portland transit and business density analysis">
       <div class="project-card-title">Portland Transit, Business Density, and Neighborhood Health</div>
+    </a>
+
+    <a class="project-card" href="/projects/linkedin-analysis/">
+      <img src="/assets/img/projects/random_forest_confusion.png" alt="Random forest confusion matrix for salary bin classification">
+      <div class="project-card-title">Job Salary Prediction Model</div>
+    </a>
+
+    <a class="project-card" href="/projects/covid-mental-health/">
+      <img src="/assets/img/projects/regional_symptoms_over_time.png" alt="Regional line chart showing anxiety and depression symptom trends over time">
+      <div class="project-card-title">Mental Health Trends After COVID-19</div>
+    </a>
+
+    <a class="project-card" href="/projects/pfas/">
+      <img src="/assets/img/projects/RegressionModel.png" alt="Regression plot showing cancer prevalence by PFAS type">
+      <div class="project-card-title">PFAS Concentration and Cancer Rates</div>
     </a>
 
   </div>

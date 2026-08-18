@@ -250,15 +250,16 @@ full-width: true
       <p class="hero-kicker">Recent M.S. in Data Science Graduate</p>
 
       <p class="hero-summary">
-        I build analytical tools and models that make complex data easier to understand and use.
+        
       </p>
 
       <p class="hero-detail">
-        My background spans economics, healthcare reporting, and dashboard development, with strong interests in healthcare and other work with meaningful real-world impact.
+        I build analytical tools and models that make complex data easier to understand and use. My background spans economics, healthcare reporting, and dashboard development. I have a strong interest in healthcare and any other work with meaningful real-world impacts.
       </p>
 
       <div class="hero-actions">
         <a class="hero-button" href="/about/">More About Me</a>
+        <a class="hero-button" href="/projects/">Project Portfolio</a>
         <a class="hero-button" href="/resume/">My Resume</a>
         <a class="hero-button" href="/contact/">Contact Me</a>
       </div>
