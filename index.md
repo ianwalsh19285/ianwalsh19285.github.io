@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Ian Walsh
+subtitle: Data Scientist
 full-width: true
 ---
 
@@ -14,9 +15,9 @@ full-width: true
 .home-hero {
   display: grid;
   grid-template-columns: 390px 1fr;
-  gap: 3.75rem;
+  gap: 4.25rem;
   align-items: center;
-  margin: 1.25rem 0 3.4rem 0;
+  margin: 1.5rem 0 3.8rem 0;
 }
 
 .home-portrait img {
@@ -29,25 +30,59 @@ full-width: true
 }
 
 .home-intro {
-  max-width: 720px;
+  max-width: 760px;
 }
 
-.home-intro h1 {
-  font-size: 3.2rem;
-  line-height: 1.06;
-  margin-bottom: 0.45rem;
+.hero-kicker {
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6b4b3e;
+  margin: 0 0 1rem 0;
 }
 
-.home-intro .lead {
-  font-size: 1.16rem;
-  color: #666;
-  margin-bottom: 1rem;
+.hero-summary {
+  font-size: 2rem;
+  line-height: 1.35;
+  font-weight: 600;
+  margin: 0 0 1.2rem 0;
+  max-width: 18ch;
 }
 
-.home-intro p {
+.hero-detail {
   font-size: 1.08rem;
-  line-height: 1.85;
-  margin-bottom: 0;
+  line-height: 1.9;
+  color: #4f4f4f;
+  margin: 0 0 1.5rem 0;
+  max-width: 58ch;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 0.72rem 1.05rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 999px;
+  background: #fafafa;
+  color: #404040 !important;
+  text-decoration: none !important;
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.hero-button:hover {
+  background: #f2f2f2;
+  border-color: #cfcfcf;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.05);
 }
 
 .section-divider {
@@ -159,7 +194,7 @@ full-width: true
   .home-hero {
     grid-template-columns: 1fr;
     text-align: center;
-    gap: 1.8rem;
+    gap: 2rem;
   }
 
   .home-portrait {
@@ -170,6 +205,19 @@ full-width: true
   .home-intro {
     max-width: 100%;
     margin: 0 auto;
+  }
+
+  .hero-summary,
+  .hero-detail {
+    max-width: 100%;
+  }
+
+  .hero-summary {
+    font-size: 1.6rem;
+  }
+
+  .hero-actions {
+    justify-content: center;
   }
 
   .expertise-grid {
@@ -189,10 +237,6 @@ full-width: true
   .expertise-grid {
     grid-template-columns: 1fr;
   }
-
-  .home-intro h1 {
-    font-size: 2.35rem;
-  }
 }
 </style>
 
@@ -203,11 +247,21 @@ full-width: true
     </div>
 
     <div class="home-intro">
-      <h1>Ian Walsh</h1>
-      <div class="lead">Data Scientist</div>
-      <p>
-        I’m a recent data science graduate with a strong background in economics, healthcare reporting, and dashboard development. I like to build analytical tools and models that make complex data easier to understand and use. My strongest interests are in healthcare and any other work with meaningful real-world impact.
+      <p class="hero-kicker">Recent M.S. in Data Science Graduate</p>
+
+      <p class="hero-summary">
+        I build analytical tools and models that make complex data easier to understand and use.
       </p>
+
+      <p class="hero-detail">
+        My background spans economics, healthcare reporting, and dashboard development, with strong interests in healthcare and other work with meaningful real-world impact.
+      </p>
+
+      <div class="hero-actions">
+        <a class="hero-button" href="/about/">More About Me</a>
+        <a class="hero-button" href="/resume/">My Resume</a>
+        <a class="hero-button" href="/contact/">Contact Me</a>
+      </div>
     </div>
   </div>
 
@@ -248,7 +302,7 @@ full-width: true
 
   <div class="featured-projects">
     <h2>Featured Projects</h2>
-    <p class="section-note">A few projects that best reflect my interests in applied analytics, dashboards, and policy-oriented data work.</p>
+    <p class="section-note">Key projects that best reflect my interests in applied analytics, dashboards, and policy-oriented data work.</p>
 
     <div class="featured-projects-grid">
       <a class="featured-project-card" href="/projects/data-centers/">
