@@ -37,9 +37,9 @@ layout: page
 <div class="project-copy">
   <h2>Links</h2>
   <ul>
-    <li><a href="https://github.com/ianwalsh19285/linkedin-salary-prediction">GitHub Repository</a></li>
-    <li><a href="https://ianwalsh19285.github.io/project-reports/linkedin-analysis-report/">Project Report Webpage</a></li>
+    <li><a href="https://github.com/ianwalsh19285/linkedin-salary-prediction" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
+    <li><a href='{{ "/project-reports/linkedin-analysis-report.html" | relative_url }}' target="_blank" rel="noopener noreferrer">Project Report Webpage</a></li>
   </ul>
-</div>  
+</div>
 
 </div>
