@@ -30,6 +30,13 @@ layout: page
     <li>Found that transit stop presence was not clearly correlated with the socioeconomic indicators used in the analysis.</li>
     <li>Identified a negative relationship between business density and economic vulnerability.</li>
   </ul>
+
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://github.com/ianwalsh19285/portland-transit-analysis" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
+    <li><a href='{{ "/project-reports/portland-transit-presentation.pdf" | relative_url }}' target="_blank" rel="noopener noreferrer">Final Presentation</a></li>
+    <li><a href='{{ "/project-reports/portland-transit-dashboard.pdf" | relative_url }}' target="_blank" rel="noopener noreferrer">Final Dashboard Overview</a></li>
+  </ul>
 </div>
 
 </div>
