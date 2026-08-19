@@ -34,4 +34,12 @@ layout: page
 
 <img class="project-image-secondary" src="/assets/img/projects/random_forest_confusion.png" alt="Random forest confusion matrix for salary bin classification">
 
+<div class="project-copy">
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://github.com/ianwalsh19285/linkedin-salary-prediction">GitHub Repository</a></li>
+    <li><a href="https://ianwalsh19285.github.io/project-reports/linkedin-analysis-report/">Project Report Webpage</a></li>
+  </ul>
+</div>  
+
 </div>
