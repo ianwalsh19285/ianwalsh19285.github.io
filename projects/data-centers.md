@@ -37,8 +37,8 @@ layout: page
 <div class="project-copy">
   <h2>Links</h2>
   <ul>
-    <li><a href="https://github.com/wu-msds-capstones/The-Local-Economic-Impact-of-Data-Centers">GitHub Repository</a></li>
-    <li><a href="https://wu-msds-capstones.github.io/The-Local-Economic-Impact-of-Data-Centers/">Project Report Webpage</a></li>
+    <li><a href="https://github.com/wu-msds-capstones/The-Local-Economic-Impact-of-Data-Centers" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
+    <li><a href="https://wu-msds-capstones.github.io/The-Local-Economic-Impact-of-Data-Centers/" target="_blank" rel="noopener noreferrer">Project Report Webpage</a></li>
   </ul>
 </div>
 
