@@ -36,7 +36,7 @@ layout: page
   <h2>Links</h2>
   <ul>
     <li><a href="https://github.com/LoganRosell/regional_variations_post_covid_anxiety_depression" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
-    <li><a href='{{ "/project-reports/covid-analysis-report.pdf" | relative_url }}' target="_blank" rel="noopener noreferrer">Project Report Webpage</a></li>
+    <li><a href='{{ "/project-reports/covid-analysis-report.html" | relative_url }}' target="_blank" rel="noopener noreferrer">Project Report Webpage</a></li>
   </ul>
 </div>
 
