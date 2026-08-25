@@ -30,6 +30,12 @@ layout: page
     <li>Combined static and interactive visualizations to support both quick monitoring and deeper exploration.</li>
     <li>Designed the app to communicate technical flexibility to non-technical stakeholders interested in custom dashboard services.</li>
   </ul>
+
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://github.com/ianwalsh19285/healthcare-dashboard" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
+    <li><a href="https://icwalsh.shinyapps.io/Sample-Healthcare-Dashboard/" target="_blank" rel="noopener noreferrer">Sample Dashboard Webpage</a></li>
+  </ul>
 </div>
 
 </div>
