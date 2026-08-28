@@ -37,6 +37,12 @@ layout: page
     <li>Because of assumption violations and conflicting coefficient behavior, the project did not support rejecting the null hypothesis of no significant association between these PFAS concentrations and cancer prevalence.</li>
     <li>The analysis highlighted important limitations in environmental health data, especially minimum reporting level constraints, cross-sectional timing issues, and the difficulty of measuring total exposure from water alone.</li>
   </ul>
+
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://github.com/ianwalsh19285/PFAS-and-cancer" target="_blank" rel="noopener noreferrer">GitHub Repository</a></li>
+    <li><a href='{{ "/project-reports/pfas-report.pdf" | relative_url }}' target="_blank" rel="noopener noreferrer">Project Report Webpage</a></li>
+  </ul>
 </div>
 
 
