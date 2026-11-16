@@ -247,11 +247,7 @@ full-width: true
     </div>
 
     <div class="home-intro">
-      <p class="hero-kicker">Recent M.S. in Data Science Graduate</p>
-
-      <p class="hero-summary">
-        
-      </p>
+      <p class="hero-kicker">M.S. in Data Science | Former Technical Solutions Engineer at Epic Systems </p>
 
       <p class="hero-detail">
         I build analytical tools and models that make complex data easier to understand and use. My background spans economics, healthcare reporting, and dashboard development. I have a strong interest in healthcare and any other work with meaningful real-world impacts.
