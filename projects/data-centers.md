@@ -29,6 +29,7 @@ layout: page
     <li>Found that data centers are associated with mixed local impacts rather than uniformly positive or negative outcomes.</li>
     <li>Identified meaningful differences between counties with low and high concentrations of data centers.</li>
     <li>Demonstrated how public data can be used to study an industry that is usually difficult to analyze because of limited facility-level transparency.</li>
+    <li>Won the Best Data Integration award for combining many different data sources into a cohesive foundation for the analysis.</li>
   </ul>
 </div>
 
