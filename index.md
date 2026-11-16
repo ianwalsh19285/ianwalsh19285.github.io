@@ -247,7 +247,7 @@ full-width: true
     </div>
 
     <div class="home-intro">
-      <p class="hero-kicker">M.S. in Data Science | Former Technical Solutions Engineer at Epic Systems </p>
+      <p class="hero-kicker">M.S. in Data Science | Former Technical Solutions Engineer at Epic</p>
 
       <p class="hero-detail">
         I build analytical tools and models that make complex data easier to understand and use. At Epic I spent two years building SQL reports and dashboards for pharmacy teams, and I designed the default pharmacy inventory dashboard shipped to all Willow Inventory implementations. My background spans economics, healthcare reporting, and dashboard development, and I have a strong interest in healthcare and any other work with meaningful real-world impact. I am based in the Bay Area and am looking for data science and analytics roles.
