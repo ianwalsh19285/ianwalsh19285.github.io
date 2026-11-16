@@ -235,8 +235,10 @@ full-width: true
         <ul>
           <li>Built projects using Python, SQL, R, and many other tools common in the data science field.</li>
           <li>Worked with public data to study economic and environmental impacts of data centers for my capstone project.</li>
+          <li>Won the Best Data Integration award for combining many different data sources into a cohesive foundation for the analysis.</li>
           <li>Focused on connecting technical methods to real-world interpretation.</li>
           <li>Strengthened my interest in applied analytical work.</li>
+          <li>Studied advanced machine learning, including deep learning with CNNs, RNNs, and LSTMs.</li>
         </ul>
       </div>
     </div>
