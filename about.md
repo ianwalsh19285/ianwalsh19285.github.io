@@ -221,6 +221,8 @@ full-width: true
           <li>Worked on the reporting team as both a developer and subject matter resource.</li>
           <li>Did analytical and reporting work directly for clients.</li>
           <li>Worked closely with end users and internal teams to solve workflow and data issues.</li>
+          <li>Designed the default pharmacy inventory dashboard shipped to all Willow Inventory implementations.</li>
+          <li>Helped pioneer Willow Home Infusion as one of ten Technical Solutions Engineers chosen to support it.</li>
         </ul>
       </div>
 
